@@ -1,0 +1,45 @@
+	<!DOCTYPE html>
+<html>
+<head>
+<div class="headermain"><h1> <u>The Bone Zone</u><title> Dissapearing lists</title></h1></div>
+<div class="headermain"><h1>Welcome to the worst site on the internet!</h1>s</div>
+  <div class="header2"><u><h1> Gone </h1></u></div>
+<div class="links"> <ul>
+<li><a href="final site index.html"> Home </a></li>
+<li><a href="gallery.html"> Photo Gallery  (+7 individual sites for each photo)</a></li>
+<li><a href="puns.html"> More Skeleton Puns </a></li>
+<li><a href="games.html"> Skeleton Games </a></li>
+<li><a href="time.html"> A clock for boneheads (uses javascript)</a></li>
+<li><a href="doc.html"> Google Document </a></li>
+<li><a href="pres.html"> Google Presentation</a></li>
+<li><a href="requirements.html"> Requirements met and progress of site </a></li>
+<li><a href="jquery.html"> Jquery demonstration </a></li>
+<link href = "css/style.css" type = "text/css" rel = "stylesheet" /></div>
+
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <div id="page">
+      <h1 id="header">List</h1>
+      <h2>Bare Bones Dissappearing List by Will</h2>
+      <ul>
+  <li><div class="photogallery"> <p> Local Child spooks neighboors! FREE .EXE FILES AND PIRATED MUSIC NO VIRUS PLS CHECK OUT I 
+  NEED MONEY I SOLD MY WIFE AND KIDS FOR THIS COMPUTER</p>	<img src="photos/costume.jpg">
+  </div> </li>
+  <li> <div class="photogallery"><img src="photos/skele.jpg"><p> Lose all your weight instantly! You'll just be skin and bones, 
+  minus the skin!</p></li></div>
+      </ul>
+    </div>
+<script>
+$(':header').addClass('headline');
+$('li:lt(4)').hide().fadeIn(1500);
+$('li').on('click', function() {
+  $(this).remove();
+});
+</script>
+    <script src="js/jquery-1.11.3.js"></script>
+   <script src="js/gone.js"></script>
+  </body>
+</html>
