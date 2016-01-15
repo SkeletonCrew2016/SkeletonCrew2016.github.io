@@ -78,3 +78,6 @@ background-color: #0952FB;
 .cost{
 	border: dashed #AA3939;
 }
+iframe{
+	width:100%;
+}
